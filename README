@@ -1,0 +1,23 @@
+# Calculadora Web - Vanilla JS 🧮
+
+Una calculadora web interactiva construida completamente desde cero. Este proyecto fue desarrollado para aplicar conceptos fundamentales de lógica de programación, manejo del DOM y control de estados en JavaScript.
+
+## 🚀 Características
+* **Operaciones Aritméticas Básicas:** Suma, resta, multiplicación y división.
+* **Encadenamiento de Operaciones:** Permite realizar cálculos continuos sin perder el resultado anterior.
+* **Manejo Seguro de Tipos de Datos:** Prevención de bugs de coerción de tipos (String vs. Number) al concatenar dígitos y operar matemáticamente.
+  * Inversión de signo seguro (`+/-`).
+* **Diseño Sólido:** Interfaz limpia construida con CSS puro (Grid y Flexbox).
+
+## 🛠️ Tecnologías Utilizadas
+* HTML5
+* CSS3 (Flexbox, Grid)
+* JavaScript (Vanilla / ES6+)
+
+## 🧠 Desafíos y Aprendizajes
+Este fue mi primer proyecto integrador utilizando JavaScript, desarrollado en un plazo de dos días con el objetivo principal de llevar los conceptos teóricos a la práctica. Durante el proceso, me enfoqué en:
+
+ * Manipulación del DOM: Lograr una conexión eficiente entre la interfaz gráfica y la lógica interna de la aplicación.
+ * Manejo de Estados y Tipos de Datos: Uno de los mayores retos fue dominar el tipado dinámico de JS. Tuve que programar la lógica para controlar exactamente cuándo una variable debía comportarse como String (para concatenar dígitos en la pantalla) y cuándo como Number (para ejecutar las operaciones matemáticas), evitando bugs.
+ * Casos Borde (Edge Cases): Implementé bloqueos lógicos para proteger la calculadora de errores de usuario, como el ingreso de múltiples puntos decimales, el control de la longitud de caracteres en pantalla y el encadenamiento seguro de operaciones continuas.
+ * Replicación de diseño: Como desafío estético, me propuse recrear la interfaz minimalista de la calculadora nativa de iOS (iPhone), logrando una estructura limpia y fiel al diseño original utilizando CSS puro.
